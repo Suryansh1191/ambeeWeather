@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4247A4528FAFF33006B2058 /* Ambee_WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4247A4428FAFF33006B2058 /* Ambee_WeatherApp.swift */; };
+		E4247A4728FAFF33006B2058 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4247A4628FAFF33006B2058 /* ContentView.swift */; };
+		E4247A4928FAFF35006B2058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4247A4828FAFF35006B2058 /* Assets.xcassets */; };
+		E4247A4C28FAFF35006B2058 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4247A4B28FAFF35006B2058 /* Preview Assets.xcassets */; };
+		E4247A5628FAFF35006B2058 /* Ambee_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4247A5528FAFF35006B2058 /* Ambee_WeatherTests.swift */; };
+		E4247A6028FAFF35006B2058 /* Ambee_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4247A5F28FAFF35006B2058 /* Ambee_WeatherUITests.swift */; };
+		E4247A6228FAFF35006B2058 /* Ambee_WeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4247A6128FAFF35006B2058 /* Ambee_WeatherUITestsLaunchTests.swift */; };
+		E4247A7028FB014C006B2058 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4247A6F28FB014C006B2058 /* HomeView.swift */; };
+		E4247A7228FB0161006B2058 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4247A7128FB0161006B2058 /* WeatherModel.swift */; };
+		E4247A7428FB0177006B2058 /* HomeViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4247A7328FB0177006B2058 /* HomeViewControler.swift */; };
+		E4247A7728FB01D4006B2058 /* Constents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4247A7628FB01D4006B2058 /* Constents.swift */; };
+		E4247A7928FB01E1006B2058 /* APINetworking .swift in Sources */ = {isa = PBXBuildFile; fileRef = E4247A7828FB01E1006B2058 /* APINetworking .swift */; };
+		E4A5054E28FBBA8E008C7435 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5054D28FBBA8E008C7435 /* Extentions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4247A5228FAFF35006B2058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4247A3928FAFF33006B2058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4247A4028FAFF33006B2058;
+			remoteInfo = "Ambee Weather";
+		};
+		E4247A5C28FAFF35006B2058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4247A3928FAFF33006B2058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4247A4028FAFF33006B2058;
+			remoteInfo = "Ambee Weather";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4247A4128FAFF33006B2058 /* Ambee Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ambee Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4247A4428FAFF33006B2058 /* Ambee_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ambee_WeatherApp.swift; sourceTree = "<group>"; };
+		E4247A4628FAFF33006B2058 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4247A4828FAFF35006B2058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4247A4B28FAFF35006B2058 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4247A5128FAFF35006B2058 /* Ambee WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ambee WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4247A5528FAFF35006B2058 /* Ambee_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ambee_WeatherTests.swift; sourceTree = "<group>"; };
+		E4247A5B28FAFF35006B2058 /* Ambee WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ambee WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4247A5F28FAFF35006B2058 /* Ambee_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ambee_WeatherUITests.swift; sourceTree = "<group>"; };
+		E4247A6128FAFF35006B2058 /* Ambee_WeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ambee_WeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4247A6F28FB014C006B2058 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E4247A7128FB0161006B2058 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		E4247A7328FB0177006B2058 /* HomeViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControler.swift; sourceTree = "<group>"; };
+		E4247A7628FB01D4006B2058 /* Constents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constents.swift; sourceTree = "<group>"; };
+		E4247A7828FB01E1006B2058 /* APINetworking .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APINetworking .swift"; sourceTree = "<group>"; };
+		E4A5054D28FBBA8E008C7435 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4247A3E28FAFF33006B2058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4247A4E28FAFF35006B2058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4247A5828FAFF35006B2058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4247A3828FAFF33006B2058 = {
+			isa = PBXGroup;
+			children = (
+				E4247A4328FAFF33006B2058 /* Ambee Weather */,
+				E4247A5428FAFF35006B2058 /* Ambee WeatherTests */,
+				E4247A5E28FAFF35006B2058 /* Ambee WeatherUITests */,
+				E4247A4228FAFF33006B2058 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4247A4228FAFF33006B2058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4247A4128FAFF33006B2058 /* Ambee Weather.app */,
+				E4247A5128FAFF35006B2058 /* Ambee WeatherTests.xctest */,
+				E4247A5B28FAFF35006B2058 /* Ambee WeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4247A4328FAFF33006B2058 /* Ambee Weather */ = {
+			isa = PBXGroup;
+			children = (
+				E4247A7528FB01B6006B2058 /* Helper */,
+				E4247A6E28FB013D006B2058 /* HomeView */,
+				E4247A4428FAFF33006B2058 /* Ambee_WeatherApp.swift */,
+				E4247A4628FAFF33006B2058 /* ContentView.swift */,
+				E4247A4828FAFF35006B2058 /* Assets.xcassets */,
+				E4247A4A28FAFF35006B2058 /* Preview Content */,
+			);
+			path = "Ambee Weather";
+			sourceTree = "<group>";
+		};
+		E4247A4A28FAFF35006B2058 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E4247A4B28FAFF35006B2058 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4247A5428FAFF35006B2058 /* Ambee WeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4247A5528FAFF35006B2058 /* Ambee_WeatherTests.swift */,
+			);
+			path = "Ambee WeatherTests";
+			sourceTree = "<group>";
+		};
+		E4247A5E28FAFF35006B2058 /* Ambee WeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4247A5F28FAFF35006B2058 /* Ambee_WeatherUITests.swift */,
+				E4247A6128FAFF35006B2058 /* Ambee_WeatherUITestsLaunchTests.swift */,
+			);
+			path = "Ambee WeatherUITests";
+			sourceTree = "<group>";
+		};
+		E4247A6E28FB013D006B2058 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				E4247A6F28FB014C006B2058 /* HomeView.swift */,
+				E4247A7128FB0161006B2058 /* WeatherModel.swift */,
+				E4247A7328FB0177006B2058 /* HomeViewControler.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		E4247A7528FB01B6006B2058 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E4247A7628FB01D4006B2058 /* Constents.swift */,
+				E4247A7828FB01E1006B2058 /* APINetworking .swift */,
+				E4A5054D28FBBA8E008C7435 /* Extentions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4247A4028FAFF33006B2058 /* Ambee Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4247A6528FAFF35006B2058 /* Build configuration list for PBXNativeTarget "Ambee Weather" */;
+			buildPhases = (
+				E4247A3D28FAFF33006B2058 /* Sources */,
+				E4247A3E28FAFF33006B2058 /* Frameworks */,
+				E4247A3F28FAFF33006B2058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ambee Weather";
+			productName = "Ambee Weather";
+			productReference = E4247A4128FAFF33006B2058 /* Ambee Weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4247A5028FAFF35006B2058 /* Ambee WeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4247A6828FAFF35006B2058 /* Build configuration list for PBXNativeTarget "Ambee WeatherTests" */;
+			buildPhases = (
+				E4247A4D28FAFF35006B2058 /* Sources */,
+				E4247A4E28FAFF35006B2058 /* Frameworks */,
+				E4247A4F28FAFF35006B2058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4247A5328FAFF35006B2058 /* PBXTargetDependency */,
+			);
+			name = "Ambee WeatherTests";
+			productName = "Ambee WeatherTests";
+			productReference = E4247A5128FAFF35006B2058 /* Ambee WeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4247A5A28FAFF35006B2058 /* Ambee WeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4247A6B28FAFF35006B2058 /* Build configuration list for PBXNativeTarget "Ambee WeatherUITests" */;
+			buildPhases = (
+				E4247A5728FAFF35006B2058 /* Sources */,
+				E4247A5828FAFF35006B2058 /* Frameworks */,
+				E4247A5928FAFF35006B2058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4247A5D28FAFF35006B2058 /* PBXTargetDependency */,
+			);
+			name = "Ambee WeatherUITests";
+			productName = "Ambee WeatherUITests";
+			productReference = E4247A5B28FAFF35006B2058 /* Ambee WeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4247A3928FAFF33006B2058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E4247A4028FAFF33006B2058 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					E4247A5028FAFF35006B2058 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = E4247A4028FAFF33006B2058;
+					};
+					E4247A5A28FAFF35006B2058 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = E4247A4028FAFF33006B2058;
+					};
+				};
+			};
+			buildConfigurationList = E4247A3C28FAFF33006B2058 /* Build configuration list for PBXProject "Ambee Weather" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4247A3828FAFF33006B2058;
+			productRefGroup = E4247A4228FAFF33006B2058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4247A4028FAFF33006B2058 /* Ambee Weather */,
+				E4247A5028FAFF35006B2058 /* Ambee WeatherTests */,
+				E4247A5A28FAFF35006B2058 /* Ambee WeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4247A3F28FAFF33006B2058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4247A4C28FAFF35006B2058 /* Preview Assets.xcassets in Resources */,
+				E4247A4928FAFF35006B2058 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4247A4F28FAFF35006B2058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4247A5928FAFF35006B2058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4247A3D28FAFF33006B2058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4247A7028FB014C006B2058 /* HomeView.swift in Sources */,
+				E4247A7928FB01E1006B2058 /* APINetworking .swift in Sources */,
+				E4247A7728FB01D4006B2058 /* Constents.swift in Sources */,
+				E4247A4728FAFF33006B2058 /* ContentView.swift in Sources */,
+				E4A5054E28FBBA8E008C7435 /* Extentions.swift in Sources */,
+				E4247A7228FB0161006B2058 /* WeatherModel.swift in Sources */,
+				E4247A7428FB0177006B2058 /* HomeViewControler.swift in Sources */,
+				E4247A4528FAFF33006B2058 /* Ambee_WeatherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4247A4D28FAFF35006B2058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4247A5628FAFF35006B2058 /* Ambee_WeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4247A5728FAFF35006B2058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4247A6228FAFF35006B2058 /* Ambee_WeatherUITestsLaunchTests.swift in Sources */,
+				E4247A6028FAFF35006B2058 /* Ambee_WeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4247A5328FAFF35006B2058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4247A4028FAFF33006B2058 /* Ambee Weather */;
+			targetProxy = E4247A5228FAFF35006B2058 /* PBXContainerItemProxy */;
+		};
+		E4247A5D28FAFF35006B2058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4247A4028FAFF33006B2058 /* Ambee Weather */;
+			targetProxy = E4247A5C28FAFF35006B2058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4247A6328FAFF35006B2058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4247A6428FAFF35006B2058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4247A6628FAFF35006B2058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ambee Weather/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DKR776WWU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App Need acess";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App Need acess";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryanshbisen.Ambee-Weather3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4247A6728FAFF35006B2058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ambee Weather/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DKR776WWU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App Need acess";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App Need acess";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryanshbisen.Ambee-Weather3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4247A6928FAFF35006B2058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q3MB75L4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryanshbisen.Ambee-WeatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ambee Weather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ambee Weather";
+			};
+			name = Debug;
+		};
+		E4247A6A28FAFF35006B2058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q3MB75L4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryanshbisen.Ambee-WeatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ambee Weather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ambee Weather";
+			};
+			name = Release;
+		};
+		E4247A6C28FAFF35006B2058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q3MB75L4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryanshbisen.Ambee-WeatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ambee Weather";
+			};
+			name = Debug;
+		};
+		E4247A6D28FAFF35006B2058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q3MB75L4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryanshbisen.Ambee-WeatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ambee Weather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4247A3C28FAFF33006B2058 /* Build configuration list for PBXProject "Ambee Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4247A6328FAFF35006B2058 /* Debug */,
+				E4247A6428FAFF35006B2058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4247A6528FAFF35006B2058 /* Build configuration list for PBXNativeTarget "Ambee Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4247A6628FAFF35006B2058 /* Debug */,
+				E4247A6728FAFF35006B2058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4247A6828FAFF35006B2058 /* Build configuration list for PBXNativeTarget "Ambee WeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4247A6928FAFF35006B2058 /* Debug */,
+				E4247A6A28FAFF35006B2058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4247A6B28FAFF35006B2058 /* Build configuration list for PBXNativeTarget "Ambee WeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4247A6C28FAFF35006B2058 /* Debug */,
+				E4247A6D28FAFF35006B2058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4247A3928FAFF33006B2058 /* Project object */;
+}
